@@ -12,12 +12,16 @@ Folder 'simulation/' contains the codes for simulation study.
 
 'simulation_estimate.py' is used for estimating the RNN-TVP model. The output is saved to 'simulation/simulated_data/result' as the table with columns: fitted y; true value of y; true value of beta
 
+'RW_TVP ' is used for estimating the RW-TVP model. The output is saved to 'simulation/simulated_data/result' as the table with columns: fitted y; true value of y; true value of beta
+
 'simulation_evaluate.py' is used for evaluating the result. It saves the figures to 'simulation/figure'.
 
 # real-world application: predict US GDP
 
 Folder 'economics_data/' contains the codes for predicting US GDP
 
-'econ_out_sample_pred.py' is the code for generating out-of-sample predictions for US GDP. The output is saved to 'economics_data/result/' as the table with columns: predicted value of y; true value of y.
+'econ_out_sample_pred.py' is the code for generating out-of-sample predictions for US GDP by RNN-TVP. The output is saved to 'economics_data/result/' as the table with columns: predicted value of y; true value of y.
+
+'RW_TVP.m' is the matlab code for generating out-of-sample predictions for US GDP by RW-TVP. The output is saved to 'economics_data/result/' as the table with columns: predicted value of y; true value of y.
 
 'econ_out_sample_evaluate.py' is the code for evaluating out-of-sample predictions for US GDP. The output is saved to 'economics_data/figure'.
